@@ -1,0 +1,28 @@
+{
+  "info": {
+    "enemies": {
+      "address": 128,
+      "type": "|u1"
+    },
+    "baselives": {
+      "address": 58,
+      "type": ">u2"
+    },
+    "lives1p": {
+      "address": 81,
+      "type": "|u1"
+    },
+    "lives2p": {
+      "address": 82,
+      "type": "|u1"
+    },
+    "score": {
+      "address": 22,
+      "type": ">n6"
+    },
+    "score2": {
+      "address": 30,
+      "type": ">n6"
+    }
+  }
+}

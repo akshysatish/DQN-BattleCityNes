@@ -1,0 +1,35 @@
+{
+  "crop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "done": {
+    "condition": "any",
+    "variables": {
+      "baselives": {
+        "op": "less-or-equal",
+        "reference": 1
+      },
+      "lives1p": {
+        "op": "less-or-equal",
+        "reference": 2
+      },
+      "lives2p": {
+        "op": "less-or-equal",
+        "reference": 2
+      }
+    }
+  },
+  "reward": {
+    "variables": {
+      "score": {
+        "reward": 1.0
+      },
+      "score2": {
+        "reward": 1.0
+      }
+    }
+  }
+}
